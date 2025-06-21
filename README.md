@@ -6,8 +6,24 @@ Managing code clones remains a critical challenge in software engineering despit
   <img src="fig/overview.png" alt="Overview Diagram" width="70%">
 </div>
 
-## Install
+## Install and Execute
 ### Obtain Project
 ```
 git clone https://github.com/nikoHu/CloneCloneClassification.git
+```
+### Obtain function information
+```
+java -jar libs/saga/SAGACloneDetector.jar your/project/path
+```
+### Obtain Feature
+```
+java -jar clone-0.0.1-SNAPSHOT.jar
+```
+### Calculate feature entropy
+```
+python script/FeatureComplexity.py
+```
+### Storage entropy
+```
+python script/entorpyGen.py
 ```

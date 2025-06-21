@@ -7,4 +7,7 @@ Managing code clones remains a critical challenge in software engineering despit
 </div>
 
 ## Install
-
+### Obtain Project
+```
+git clone https://github.com/nikoHu/CloneCloneClassification.git
+```

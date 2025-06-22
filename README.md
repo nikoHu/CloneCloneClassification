@@ -12,12 +12,6 @@ Managing code clones remains a critical challenge in software engineering despit
 git clone https://github.com/nikoHu/CloneCloneClassification.git
 ```
 ### Obtain function information
-<div align="center">
-  <img src="fig/overview.png" alt="Overview Diagram" width="70%">
-</div>
-<div align="center">
-  <img src="fig/overview.png" alt="Overview Diagram" width="70%">
-</div>
 ```
 java -jar libs/saga/SAGACloneDetector.jar your/project/path
 ```

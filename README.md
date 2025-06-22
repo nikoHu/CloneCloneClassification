@@ -11,4 +11,18 @@ Managing code clones remains a critical challenge in software engineering despit
 ```
 git clone https://github.com/nikoHu/CloneCloneClassification.git
 ```
+### Obtain method information
+Use a clone detection tool to detect code information and clone information, and group the clone instances to obtain the following file:
+<div align="center">
+  <img src="fig/files.png" alt="method information" width="70%">
+</div>
+The file MeasureIndex.csv stores function index information, with the fields (ID, Path, Start Line, End Line) in order.
+The file type123_method_group_result.csv stores clone group information, where each row represents one group.
+Save the above files to the result folder. Modify the cloneResultPath in CloneClassification.properties to the dataset path.
+
+### Generate Entropy
+```
+java -jar clone-0.0.1-SNAPSHOT.jar
+```
+The result is saved in result/cloneComplexFeature.csv.
 

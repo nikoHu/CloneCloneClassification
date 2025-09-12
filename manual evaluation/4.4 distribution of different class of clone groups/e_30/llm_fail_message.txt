@@ -1,0 +1,4 @@
+Class 1, File 15: Error processing file - Invalid control character at: line 4 column 105 (char 131)
+
+Class 3, File 10: Error processing file - Invalid control character at: line 4 column 161 (char 187)
+
